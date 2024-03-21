@@ -1,0 +1,85 @@
+<Scene>
+    <Name>UnnamedScene</Name>
+    <ActorCount>4</ActorCount>
+    <Actor Tag="Camera" IsActive="true" ChildrenCount="0" Type="3">
+        <GUID>61A1AB64DEAF9218</GUID>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Rotation X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+        </Transform>
+        <ActorVariables>
+            <Type value="0"/>
+            <FOV value="90"/>
+            <Far value="10000"/>
+            <Near value="0"/>
+            <IsMainCamera value="true"/>
+        </ActorVariables>
+    </Actor>
+    <Actor Tag="Floor" IsActive="true" ChildrenCount="0" Type="2">
+        <GUID>61A1AB64DEAFC3B7</GUID>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Rotation X="0" Y="0" Z="0"/>
+            <Scale X="500" Y="1" Z="500"/>
+        </Transform>
+        <ActorVariables>
+            <DiffuseMaterial>
+                <Type value="1"/>
+                <TexturePath value="crate.bmp"/>
+            </DiffuseMaterial>
+            <SpecularMaterial>
+                <Type value="2"/>
+                <Value value="1"/>
+            </SpecularMaterial>
+            <NormalMap>
+                <UsesMap value="false"/>
+            </NormalMap>
+            <MeshPath value="cube.obj"/>
+        </ActorVariables>
+    </Actor>
+    <Actor Tag="Dragon" IsActive="true" ChildrenCount="0" Type="2">
+        <GUID>61A1AB64DEAF33E9</GUID>
+        <Transform>
+            <Position X="5" Y="10" Z="-5"/>
+            <Rotation X="0" Y="0" Z="0"/>
+            <Scale X="12" Y="12" Z="12"/>
+        </Transform>
+        <ActorVariables>
+            <DiffuseMaterial>
+                <Type value="0"/>
+                <Color X="1" Y="0" Z="1"/>
+            </DiffuseMaterial>
+            <SpecularMaterial>
+                <Type value="2"/>
+                <Value value="1"/>
+            </SpecularMaterial>
+            <NormalMap>
+                <UsesMap value="false"/>
+            </NormalMap>
+            <MeshPath value="sphere.obj"/>
+        </ActorVariables>
+    </Actor>
+    <Actor Tag="Dragon" IsActive="true" ChildrenCount="0" Type="2">
+        <GUID>61A1AB64DEAFA3D1</GUID>
+        <Transform>
+            <Position X="200" Y="10" Z="-5"/>
+            <Rotation X="0" Y="0" Z="0"/>
+            <Scale X="15" Y="15" Z="15"/>
+        </Transform>
+        <ActorVariables>
+            <DiffuseMaterial>
+                <Type value="0"/>
+                <Color X="1" Y="0" Z="1"/>
+            </DiffuseMaterial>
+            <SpecularMaterial>
+                <Type value="2"/>
+                <Value value="1"/>
+            </SpecularMaterial>
+            <NormalMap>
+                <UsesMap value="false"/>
+            </NormalMap>
+            <MeshPath value="dragon.obj"/>
+        </ActorVariables>
+    </Actor>
+</Scene>

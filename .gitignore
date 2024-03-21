@@ -1,0 +1,13 @@
+.vs/
+*.sln
+Makefile
+*.make
+*.vcxproj
+*.vcxproj.*
+Debug-windows-x86_64/
+build/
+*.hint
+game/*.dll
+workspace.*
+bin/
+obj/
